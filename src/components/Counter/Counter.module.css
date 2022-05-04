@@ -1,0 +1,6 @@
+.Counter {
+    display: block;
+    min-height: 300px;
+    min-width: 300px;
+    background-color: rgba(0,0,0,0.01);
+}
