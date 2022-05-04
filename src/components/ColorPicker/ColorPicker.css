@@ -1,0 +1,19 @@
+.ColorPicker{
+    background-color: rgba(0,0,0,0.2);
+    width: 320px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.ColorPicker__item{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.ColorPicker__item:not(:last-of-type) {
+    margin-right: 10px;
+}
+.ColorPicker__item--active {
+    transform: scale(1.1);
+}
