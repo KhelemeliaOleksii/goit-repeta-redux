@@ -12,7 +12,7 @@ const Card = styled.div`
 const SocialCard = () => {
     return (
         <Card>
-
+            
         </Card>
     )
 }
