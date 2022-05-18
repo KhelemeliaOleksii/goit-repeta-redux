@@ -1,0 +1,7 @@
+.PokemonSearchForm {
+    max-width: 1170;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: azure;
+    border-bottom: solid 1px black;
+}
