@@ -1,7 +1,9 @@
 import { Component } from "react";
+import { connect } from "react-redux";
+import toDoActions from "redux/toDos/toDos-actions";
 import styles from './ToDoForm.module.css'
 
-export default class ToDoForm extends Component {
+class ToDoForm extends Component {
     initialState = {
         content: '',
     }
@@ -43,3 +45,9 @@ export default class ToDoForm extends Component {
         )
     }
 }
+
+const mapDispatchToProps = dispatch => ({
+    onSubmit: data => dispatch(toDoActions.addToDo(data))
+})
+
+export default connect(null, mapDispatchToProps)(ToDoForm);  
