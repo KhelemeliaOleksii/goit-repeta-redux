@@ -1,8 +1,6 @@
 // import { counterReducer } from './counter/counter-reducer';
 // import { todosReducer } from './toDos/toDos-reducer'
 import { configureStore } from '@reduxjs/toolkit';
-//import { persistStore, persistReducer } from 'redux-persist'
-// import storage from 'redux-persist/lib/storage'
 import logger from 'redux-logger';
 import rootPersistedReducer from './rootReducer'
 import {
